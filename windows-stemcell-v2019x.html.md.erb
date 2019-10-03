@@ -4,7 +4,7 @@ owner: Windows
 modified_date: false
 ---
 
-This topic includes release notes for Windows stemcells used with Pivotal Application Service for Windows (PASW) v2.5 and v2.6. 
+This topic includes release notes for Windows stemcells used with Pivotal Application Service for Windows (PASW) v2.5, v2.6 and v2.7.
 
 The stemcell is based on Windows Server, version 2019.
 
@@ -13,6 +13,8 @@ To download a stemcell, see [Stemcells for <%= vars.product_name %> (Windows)](h
 ## <a id="2019.11"></a>2019.11
 
 **Release Date**: September 26, 2019
+
+_Note: stembuild-2019.11 will fail on the `stembuild construct` command with a disk error. The patch to this bug will be released with stembuild-2019.12. Roll back to stembuild-2019.9 or build the stemcell manually until the next release._
 
 ### Security Fix
 - Includes [Microsoft Security Updates Patch Tuesday September 2019](https://support.microsoft.com/en-us/help/4512578)
